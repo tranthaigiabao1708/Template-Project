@@ -1,4 +1,4 @@
-﻿# Project II: Data Warehouse + ETL + Power BI
+# Project II: Data Warehouse + ETL + Power BI
 
 > **Module**: ETL - Data Warehouse + Data Visualization - Power BI
 > **Mức độ**: Trung bình
@@ -42,7 +42,7 @@ Project này gồm 5 bước chính. File starter code mẫu nằm trong thư m�
 
 ---
 
-## Bước 1 - Chuẩn bị Source Database (Ngày 1-3)
+## Bước 1 - Chuẩn bị Source Database
 
 **Mục đích**: Tạo (hoặc sử dụng lại) cơ sở dữ liệu nguồn (OLTP) chứa dữ liệu giao dịch. Đây là "nguồn" mà bạn sẽ extract dữ liệu từ đó để đưa vào Data Warehouse.
 
@@ -59,7 +59,7 @@ Project này gồm 5 bước chính. File starter code mẫu nằm trong thư m�
 
 ---
 
-## Bước 2 - Thiết kế Data Warehouse (Ngày 3-5) (25 điểm)
+## Bước 2 - Thiết kế Data Warehouse (25 điểm)
 
 **Mục đích**: Thiết kế kho dữ liệu (Data Warehouse) theo mô hình Star Schema. Star Schema gồm 1 bảng Fact (chứa các số đo - metrics) và nhiều bảng Dimension (chứa thông tin mô tả - như sản phẩm, khách hàng, ngày tháng).
 
@@ -104,7 +104,7 @@ Project này gồm 5 bước chính. File starter code mẫu nằm trong thư m�
 
 ---
 
-## Bước 3 - Xây dựng ETL Pipeline (Ngày 6-12) (30 điểm)
+## Bước 3 - Xây dựng ETL Pipeline (30 điểm)
 
 **Mục đích**: Tạo luồng xử lý dữ liệu từ Source -> Staging -> Data Warehouse. ETL là quá trình cốt lõi: Extract (lấy dữ liệu), Transform (làm sạch và chuyển đổi), Load (nạp vào DWH).
 
@@ -141,7 +141,7 @@ Giai đoạn L - Load:
 
 ---
 
-## Bước 4 - Tạo Power BI Dashboard (Ngày 13-18) (30 điểm)
+## Bước 4 - Tạo Power BI Dashboard (30 điểm)
 
 **Mục đích**: Kết nối Power BI với Data Warehouse và tạo dashboard trực quan hóa. Đây là bước "kết quả" - biến dữ liệu thành insight mà người dùng kinh doanh đọc được.
 
@@ -189,7 +189,7 @@ Giai đoạn L - Load:
 
 ---
 
-## Bước 5 - Documentation và nộp bài (Ngày 19-21) (15 điểm)
+## Bước 5 - Documentation và nộp bài (15 điểm)
 
 **Mục đích**: Hoàn thiện tài liệu và đóng gói bài nộp.
 

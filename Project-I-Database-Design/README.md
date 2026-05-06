@@ -1,4 +1,4 @@
-﻿# Project I: Thiết kế Cơ sở dữ liệu và Xây dựng Báo cáo
+# Project I: Thiết kế Cơ sở dữ liệu và Xây dựng Báo cáo
 
 > **Module**: Cơ sở dữ liệu quan hệ (SQL - SQL Server)
 > **Mức độ**: Cơ bản
@@ -42,7 +42,7 @@ Project này gồm 7 bước, thực hiện tuần tự. File starter code mẫu
 
 ---
 
-## Bước 1 - Chọn chủ đề và phân tích yêu cầu (Ngày 1-2)
+## Bước 1 - Chọn chủ đề và phân tích yêu cầu
 
 **Mục đích**: Hiểu rõ bài toán nghiệp vụ trước khi bắt tay vào thiết kế. Bạn cần trả lời được các câu hỏi: Hệ thống này phục vụ ai? Quản lý những đối tượng gì? Các đối tượng liên quan với nhau như thế nào?
 
@@ -62,7 +62,7 @@ Project này gồm 7 bước, thực hiện tuần tự. File starter code mẫu
 
 ---
 
-## Bước 2 - Thiết kế ERD (Ngày 2-3) (40 điểm)
+## Bước 2 - Thiết kế ERD (40 điểm)
 
 **Mục đích**: Chuyển danh sách thực thể và mối quan hệ từ Bước 1 thành sơ đồ ERD chính thức, chuẩn hóa đến 3NF (Third Normal Form) - đảm bảo không có dữ liệu trùng lặp, mỗi bảng có khóa chính rõ ràng.
 
@@ -88,7 +88,7 @@ Tham khảo ERD mẫu cho các chủ đề tại `docs/architecture.md`.
 
 ---
 
-## Bước 3 - Tạo Database trên SQL Server (Ngày 4-5)
+## Bước 3 - Tạo Database trên SQL Server
 
 **Mục đích**: Biến ERD thành database thật trên SQL Server, viết script tạo từng bảng với đầy đủ ràng buộc.
 
@@ -116,7 +116,7 @@ GO
 
 ---
 
-## Bước 4 - Tạo dữ liệu mẫu (Ngày 5-6) (10 điểm)
+## Bước 4 - Tạo dữ liệu mẫu (10 điểm)
 
 **Mục đích**: Nạp dữ liệu mẫu vào database để có dữ liệu phục vụ viết báo cáo và test stored procedures. Dữ liệu phải thực tế và nhất quán giữa các bảng.
 
@@ -135,7 +135,7 @@ GO
 
 ---
 
-## Bước 5 - Viết Stored Procedures và Views (Ngày 7-9) (20 điểm)
+## Bước 5 - Viết Stored Procedures và Views (20 điểm)
 
 **Mục đích**: Tạo các stored procedures (SP) để xử lý nghiệp vụ và views để đơn giản hóa truy vấn báo cáo. SP giúp đóng gói logic, bảo mật và tái sử dụng. Views giúp rút gọn các truy vấn phức tạp.
 
@@ -162,7 +162,7 @@ Views (tối thiểu 3):
 
 ---
 
-## Bước 6 - Viết báo cáo SQL (Ngày 10-12) (30 điểm)
+## Bước 6 - Viết báo cáo SQL (30 điểm)
 
 **Mục đích**: Viết các câu truy vấn SQL để trả lời các câu hỏi nghiệp vụ. Đây là phần quan trọng nhất - chứng minh bạn có thể khai thác dữ liệu để tạo insight.
 
@@ -224,7 +224,7 @@ Chủ đề D - Quản lý Nhân sự:
 
 ---
 
-## Bước 7 - Vẽ System Architecture và hoàn thiện (Ngày 13-14)
+## Bước 7 - Vẽ System Architecture và hoàn thiện
 
 **Mục đích**: Tự vẽ sơ đồ kiến trúc hệ thống tổng thể và hoàn thiện bài nộp.
 
@@ -263,20 +263,6 @@ StudentName-ProjectI/
     report-02.png
     ...
 ```
-
----
-
-## Timeline gợi ý
-
-| Tuần | Ngày | Công việc |
-|------|------|-----------|
-| Tuần 1 | Ngày 1-2 | Chọn chủ đề, phân tích yêu cầu |
-| Tuần 1 | Ngày 2-3 | Thiết kế ERD |
-| Tuần 1 | Ngày 4-5 | Tạo database trên SQL Server |
-| Tuần 1 | Ngày 5-7 | Tạo dữ liệu mẫu |
-| Tuần 2 | Ngày 1-3 | Viết Stored Procedures và Views |
-| Tuần 2 | Ngày 4-5 | Viết 10 báo cáo SQL |
-| Tuần 2 | Ngày 6-7 | Vẽ Architecture, hoàn thiện và nộp bài |
 
 ---
 
