@@ -59,8 +59,3 @@ Project-X/
 - Mỗi nhóm chỉ chọn **một template** theo phân công của giảng viên.
 - Đọc kỹ **rubric.md** trước khi bắt đầu để nắm tiêu chí đánh giá.
 - Sử dụng **submission-template.md** làm khung báo cáo nộp bài.
-
----
-
-> **Giảng viên**: Trần Thái Gia Bảo  
-> **Môn học**: Kỹ thuật Dữ liệu (Data Engineering)
