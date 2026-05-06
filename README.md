@@ -1,11 +1,11 @@
-# 📚 Data Engineering – Project Templates
+# Data Engineering – Project Templates
 
 > Bộ template dành cho các đồ án môn **Kỹ thuật Dữ liệu (Data Engineering)**.  
 > Học viên chọn **một template** phù hợp với loại đồ án được giao, clone về và bắt đầu làm việc.
 
 ---
 
-## 🗂️ Danh sách Template
+## Danh sách Template
 
 | # | Folder | Mô tả | Công nghệ chính |
 |---|--------|--------|-----------------|
@@ -19,7 +19,7 @@
 
 ---
 
-## 🚀 Hướng dẫn sử dụng
+## Hướng dẫn sử dụng
 
 ### Bước 1 – Clone repo
 ```bash
@@ -31,15 +31,15 @@ Mở folder tương ứng với đồ án được giao và đọc file `README.
 
 ### Bước 3 – Bắt đầu làm việc
 Mỗi template đã bao gồm:
-- 📖 **README.md** – Hướng dẫn chi tiết từng bước
-- 📐 **docs/** – Sơ đồ kiến trúc & thiết kế
-- 📝 **rubric.md** – Tiêu chí chấm điểm
-- 📄 **submission-template.md** – Mẫu báo cáo nộp bài
-- 💻 **starter-code/** – Code khởi đầu *(nếu có)*
+- **README.md** – Hướng dẫn chi tiết từng bước
+- **docs/** – Sơ đồ kiến trúc & thiết kế
+- **rubric.md** – Tiêu chí chấm điểm
+- **submission-template.md** – Mẫu báo cáo nộp bài
+- **starter-code/** – Code khởi đầu *(nếu có)*
 
 ---
 
-## 📋 Cấu trúc mỗi Template
+## Cấu trúc mỗi Template
 
 ```
 Project-X/
@@ -54,7 +54,7 @@ Project-X/
 
 ---
 
-## 📌 Lưu ý
+## Lưu ý
 
 - Mỗi nhóm chỉ chọn **một template** theo phân công của giảng viên.
 - Đọc kỹ **rubric.md** trước khi bắt đầu để nắm tiêu chí đánh giá.
